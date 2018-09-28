@@ -1,4 +1,4 @@
-# Name-Gender-Classification
+# Name Gender Classification
 It is a simple project to predict the gender(Male,Female) of Indian Names. I have used various Deep Learning model to get the things done.
 ### About Dataset
 The dataset I have used is present [here](https://gist.github.com/mbejda/7f86ca901fe41bc14a63) and [here](https://gist.github.com/mbejda/9b93c7545c9dd93060bd)
@@ -11,7 +11,7 @@ I have used Keras as my deep learning framework for the project.
 
 * The second model I have tried was Deep Character level LSTM with `30,70 and 30` units. The accuracy I got was **91.69%**.
 
- |  Precision | Recall  | F1 Score  |
+ | Precision | Recall  | F1 Score  |
  |:-:|:-:|:-:|:-:|
- |Female  | 0.92  | 0.92  | 0.92  |
+ | Female | 0.92  | 0.92  | 0.92  |
  | Male |  0.91 | 0.92  | 0.91  |
