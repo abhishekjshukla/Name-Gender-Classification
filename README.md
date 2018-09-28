@@ -9,8 +9,7 @@ The dataset is balanced with a total of 15382 Female and 14845 male names. There
 I have used Keras as my deep learning framework for the project.
 * First model I have tried was a Simple MLP with input as one hot encoded names as input for testing purpose. The acuracy I got on test set was **79.23%**.
 
-* The second model I have tried was Deep Character level LSTM with `30,70 and 30` units. The accuracy I got was **91.69%**.
-... The Classification Report is 
+* The second model I have tried was Deep Character level LSTM with `30,70 and 30` units. The accuracy I got was **91.69%**. The Classification Report is 
 
 |   |  Precision | Recall  | F1 Score  |
 |:-:|:-:|:-:|:-:|
