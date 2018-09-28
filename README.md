@@ -11,7 +11,7 @@ I have used Keras as my deep learning framework for the project.
 
 * The second model I have tried was Deep Character level LSTM with `30,70 and 30` units. The accuracy I got was **91.69%**.
 ... The report is 
-... |   |  Precision | Recall  | F1 Score  |
-... |:-:|:-:|:-:|:-:|
-... | Female  | 0.92  | 0.92  | 0.92  |
-... | Male |  0.91 | 0.92  | 0.91  |
+    |  Precision | Recall  | F1 Score  |
+ |:-:|:-:|:-:|:-:|
+| Female  | 0.92  | 0.92  | 0.92  |
+ | Male |  0.91 | 0.92  | 0.91  |
