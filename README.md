@@ -13,5 +13,5 @@ I have used Keras as my deep learning framework for the project.
 
 |   |  Precision | Recall  | F1 Score  |
 |:-:|:-:|:-:|:-:|
-| 0  | 0.92  | 0.92  | 0.92  |
-| 1 |  0.91 | 0.92  | 0.91  |
+| Female  | 0.92  | 0.92  | 0.92  |
+| Male |  0.91 | 0.92  | 0.91  |
