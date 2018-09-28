@@ -122,5 +122,5 @@ print(model.summary())
 
 model.compile(optimizer="Adam", loss='categorical_crossentropy', metrics=['accuracy'])
 checkpoint = ModelCheckpoint('name:' + '{epoch:03d}-{val_acc:.4f}.hdf5', monitor='val_acc', verbose=1, save_best_only=True, mode='auto')
-model.fit(x_train, y_train, batch_size=50, epochs=250, verbose=1,callbacks=[checkpoint], validation_data=(x_test,y_test)) 
+model.fit(x_train, y_train, batch_size=50, epochs=100, verbose=1,callbacks=[checkpoint], validation_data=(x_test,y_test)) 
 
